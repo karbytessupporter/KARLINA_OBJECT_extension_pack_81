@@ -138,10 +138,20 @@ The remaining differences are:
 
 1. **M-DISC asterisk destination mismatch.** The linked pack_80 page lists **36 ZIP files**, while the pack_81 source lists **37**, including `KARLINA_OBJECT_extension_pack_81-main_24october2026.zip`. The pages also reference their respective pack_80 and pack_81 locations. To open the rendered counterpart of the adjacent pack_81 raw file, the asterisk should point to:
 
-   [https://karlinarayberinger.github.io/KARLINA_OBJECT_extension_pack_81/unlisted_web_page_mdisc_karbytes2026_9.html](https://karlinarayberinger.github.io/KARLINA_OBJECT_extension_pack_81/unlisted_web_page_mdisc_karbytes2026_9.html)
+[https://karlinarayberinger.github.io/KARLINA_OBJECT_extension_pack_81/unlisted_web_page_mdisc_karbytes2026_9.html](https://karlinarayberinger.github.io/KARLINA_OBJECT_extension_pack_81/unlisted_web_page_mdisc_karbytes2026_9.html)
 
-   I verified that this URL returns HTTP 200 and matches the pack_81 source exactly.
+I verified that this URL returns HTTP 200 and matches the pack_81 source exactly.
 
 2. **Macro-directory page 1 version difference.** The pack_81 source copy remains dated **15_OCTOBER_2026** and lacks the pack_81 entry. Its asterisk correctly opens the live **24_OCTOBER_2026** version, which includes that entry. This is a snapshot difference, rather than a broken or misdirected hyperlink.
 
 3. **An incidental reference inside the pack_81 M-DISC page is inconsistent.** Its introduction identifies `NEW_MACRO-DIRECTORY_PAGE_0` as the enclosing macro-directory for pack_81. Pack_81 actually appears on **macro-directory page 1**, consistent with the micro-directory’s own directory-level metadata.
+
+karbytes:
+
+What I would like you to do now (just to be extra thorough with the interim auditing of the KARLINA_OBJECT_extension_pack_81 micro-directory) is the following...
+
+On the following web page, verify whether or not the sub-index pages whose index numbers are 283 to 284 contain all of the aforementioned hyperlinks with the one exception being that the links may appear in a different order than how they appear in the respective micro-directory surface (i.e. index.html) and each of the sub-index hyperlinks display the full URL they point to as their visible components:
+
+https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches_extension_1/
+
+(This time favor constraining the response to in-conversation text only instead of generating a downloadable markdown file).
